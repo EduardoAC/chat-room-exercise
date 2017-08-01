@@ -1,0 +1,31 @@
+{
+  "name": "chat-room-exercise",
+  "version": "1.0.0",
+  "description": "Basic chat exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoAC/chat-room-exercise.git"
+  },
+  "keywords": [
+    "chat",
+    "sockets",
+    "exercise"
+  ],
+  "author": "Eduardo Aparicio Cardenes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduardoAC/chat-room-exercise/issues"
+  },
+  "homepage": "https://github.com/EduardoAC/chat-room-exercise#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
