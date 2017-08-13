@@ -4,12 +4,9 @@ const socketSetup = (io) => {
     socket.on('disconnect', function(){
       console.log('user disconnected');
     });
-    // socket.on('join room', function(roomname){
-    //   socket.roomname = roomname;
-    //   socket.join(roomname);
-    // });
+
     socket.on('message', function(msg){
-      console.log(msg);
+      io.emit('message', msg);
     });
   });
 };
