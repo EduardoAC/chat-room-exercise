@@ -14,7 +14,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015']
+          presets: ['es2015', 'react']
         }
       }
     ]
@@ -23,7 +23,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Example chat exercise',
-      filename: 'index.html'
+      filename: 'index.html',
+      template: 'assets/indexTemplate.html',
     })
   ]
 };
