@@ -20,7 +20,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "cd frontend/ && webpack"
+    "build": "cd frontend/ && webpack",
+    "start": "npm run build && node backend/",
+    "start:dev": "npm run build -- --watch && node backend/"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
