@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import ChatLog from '../ChatLog/ChatLog';
-import ChatInput from '../ChatInput/ChatInput';
+import ChatLog from '../components/ChatLog';
+import ChatInput from '../components/ChatInput';
 
 class ChatContainer extends Component {
   constructor(props) {

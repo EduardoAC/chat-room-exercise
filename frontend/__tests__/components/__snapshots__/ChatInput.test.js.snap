@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatInput /> Component renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <form
+    onSubmit={[Function]}
+>
+    <input
+        autoComplete="off"
+        onChange={[Function]}
+        type="text"
+        value=""
+    />
+    <input
+        type="submit"
+        value="Send"
+    />
+</form>,
+  "nodes": Array [
+    <form
+      onSubmit={[Function]}
+>
+      <input
+            autoComplete="off"
+            onChange={[Function]}
+            type="text"
+            value=""
+      />
+      <input
+            type="submit"
+            value="Send"
+      />
+</form>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ChatInput
+        socket={Object {}}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ChatInput {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChange": [Function],
+        "handleSubmit": [Function],
+        "props": Object {
+          "socket": Object {},
+        },
+        "refs": Object {},
+        "state": Object {
+          "message": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <form
+          onSubmit={[Function]}
+>
+          <input
+                    autoComplete="off"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+          />
+          <input
+                    type="submit"
+                    value="Send"
+          />
+</form>,
+        "_debugID": 2,
+        "_renderedOutput": <form
+          onSubmit={[Function]}
+>
+          <input
+                    autoComplete="off"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+          />
+          <input
+                    type="submit"
+                    value="Send"
+          />
+</form>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ChatInput
+    socket={Object {}}
+/>,
+}
+`;
