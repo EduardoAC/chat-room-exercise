@@ -9,30 +9,36 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <form
+    className="chat-message-form"
     onSubmit={[Function]}
 >
     <input
         autoComplete="off"
+        className="chat-message-form__message"
         onChange={[Function]}
         type="text"
         value=""
     />
     <input
+        className="chat-message-form__submit"
         type="submit"
         value="Send"
     />
 </form>,
   "nodes": Array [
     <form
+      className="chat-message-form"
       onSubmit={[Function]}
 >
       <input
             autoComplete="off"
+            className="chat-message-form__message"
             onChange={[Function]}
             type="text"
             value=""
       />
       <input
+            className="chat-message-form__submit"
             type="submit"
             value="Send"
       />
@@ -81,30 +87,36 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <form
+          className="chat-message-form"
           onSubmit={[Function]}
 >
           <input
                     autoComplete="off"
+                    className="chat-message-form__message"
                     onChange={[Function]}
                     type="text"
                     value=""
           />
           <input
+                    className="chat-message-form__submit"
                     type="submit"
                     value="Send"
           />
 </form>,
         "_debugID": 2,
         "_renderedOutput": <form
+          className="chat-message-form"
           onSubmit={[Function]}
 >
           <input
                     autoComplete="off"
+                    className="chat-message-form__message"
                     onChange={[Function]}
                     type="text"
                     value=""
           />
           <input
+                    className="chat-message-form__submit"
                     type="submit"
                     value="Send"
           />

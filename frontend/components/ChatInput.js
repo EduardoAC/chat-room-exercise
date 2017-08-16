@@ -21,14 +21,15 @@ class ChatInput extends Component {
   render() {
     const { message } = this.state;
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="chat-message-form" onSubmit={this.handleSubmit}>
         <input
+          className="chat-message-form__message"
           autoComplete="off"
           type="text"
           value={message}
           onChange={this.handleChange}
         />
-        <input type="submit" value="Send" />
+        <input className="chat-message-form__submit" type="submit" value="Send" />
       </form>
     );
   }
