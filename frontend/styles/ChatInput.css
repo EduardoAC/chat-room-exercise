@@ -1,0 +1,21 @@
+.chat-message-form {
+  background: #bfbfbf;
+  border-radius: 0 0 4px 4px;
+  padding: 9px;
+  width: 100%;
+}
+
+.chat-message-form__message {
+  border: none;
+  padding: 10px;
+  width: 225px;
+}
+
+.chat-message-form__submit {
+  background: #76cdd3;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+  width: 55px;
+}
