@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import '../styles/ChatLog.css';
+
 const ChatLog = ({ messages }) => {
   const messageLog = (messages) ? messages.map((msg) => (
-    <li key={msg}>{msg}</li>
+    <li
+      key={msg}
+      className="chat-message-log__message"
+    >
+      {msg}
+    </li>
   )) : null;
-  return (<ul>{messageLog}</ul>);
+  return (<ul className="chat-message-log">{messageLog}</ul>);
 };
 
 ChatLog.propTypes = {
