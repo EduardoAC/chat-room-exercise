@@ -8,7 +8,9 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
+  "node": <div
+    className="chat-window"
+>
     <ChatLog
         messages={Array []}
     />
@@ -17,7 +19,9 @@ ShallowWrapper {
     />
 </div>,
   "nodes": Array [
-    <div>
+    <div
+      className="chat-window"
+>
       <ChatLog
             messages={Array []}
       />
@@ -66,7 +70,9 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
+        "_currentElement": <div
+          className="chat-window"
+>
           <ChatLog
                     messages={Array []}
           />
@@ -75,7 +81,9 @@ ShallowWrapper {
           />
 </div>,
         "_debugID": 2,
-        "_renderedOutput": <div>
+        "_renderedOutput": <div
+          className="chat-window"
+>
           <ChatLog
                     messages={Array []}
           />
