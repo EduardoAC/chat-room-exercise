@@ -25,5 +25,5 @@ describe('<ChatInput />', () => {
     submitButton.simulate('submit');
     expect(emitFn).toHaveBeenCalledTimes(1);
     expect(emitFn).toHaveBeenCalledWith('message', 'HELLO');
-  })
+  });
 });
